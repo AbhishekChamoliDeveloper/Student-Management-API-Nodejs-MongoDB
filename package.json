@@ -1,0 +1,22 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "Student Management API",
+  "main": "app.js",
+  "scripts": {
+    "start" : "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Student",
+    "management",
+    "api"
+  ],
+  "author": "Abhishek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3",
+    "nodemon": "^2.0.20"
+  }
+}
